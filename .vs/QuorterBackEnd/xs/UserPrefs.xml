@@ -1,0 +1,74 @@
+﻿<Properties StartupConfiguration="{DD083945-60AA-4BEF-9A83-2571EB969034}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.DAL FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataEntities/Concrete/About.cs">
+    <Files>
+      <File FileName="DataEntities/Concrete/About.cs" Line="14" Column="1" />
+      <File FileName="DAL/Migrations/20220714205927_InitialMigration.cs" Line="1" Column="1" />
+      <File FileName="DAL/Migrations/20220714205927_InitialMigration.Designer.cs" Line="1" Column="1" />
+      <File FileName="DAL/Abstract/ITeamDal.cs" Line="8" Column="6" />
+      <File FileName="DAL/Abstract/IPropertyDal.cs" Line="7" Column="58" />
+      <File FileName="DataEntities/Concrete/Team.cs" Line="6" Column="18" />
+      <File FileName="DAL/Abstract/IGenericDal.cs" Line="12" Column="10" />
+      <File FileName="DAL/Abstract/IAboutDal.cs" Line="6" Column="51" />
+      <File FileName="DAL/Abstract/IContactDal.cs" Line="7" Column="6" />
+      <File FileName="DAL/Abstract/IFeatureDal.cs" Line="6" Column="55" />
+      <File FileName="DAL/Abstract/IMainFocusDal.cs" Line="6" Column="60" />
+      <File FileName="DAL/Abstract/INewsletterDal.cs" Line="6" Column="61" />
+      <File FileName="DAL/Abstract/ITestimonialDal.cs" Line="12" Column="1" />
+      <File FileName="DAL/Repository/GenericRepository.cs" Line="34" Column="25" />
+      <File FileName="DAL/EntityFramework/EfAboutDal.cs" Line="8" Column="29" />
+      <File FileName="DAL/EntityFramework/EfContactDal.cs" Line="8" Column="69" />
+      <File FileName="DAL/EntityFramework/EfFeatureDal.cs" Line="8" Column="72" />
+      <File FileName="DAL/EntityFramework/EfMainFocusDal.cs" Line="10" Column="9" />
+      <File FileName="DAL/EntityFramework/EfNewsletterDal.cs" Line="9" Column="5" />
+      <File FileName="DAL/EntityFramework/EfPropertyDal.cs" Line="8" Column="75" />
+      <File FileName="DAL/EntityFramework/EfTeamDal.cs" Line="8" Column="63" />
+      <File FileName="DAL/EntityFramework/EfTestimonialDal.cs" Line="9" Column="6" />
+      <File FileName="Business/Abstract/IGenericService.cs" Line="14" Column="28" />
+      <File FileName="Business/Abstract/IAboutService.cs" Line="6" Column="36" />
+      <File FileName="Business/Abstract/IContactService.cs" Line="6" Column="62" />
+      <File FileName="Business/Abstract/IFeatureService.cs" Line="6" Column="63" />
+      <File FileName="Business/Abstract/IMainFocusService.cs" Line="6" Column="67" />
+      <File FileName="Business/Abstract/INewsletterService.cs" Line="6" Column="69" />
+      <File FileName="Business/Abstract/IPropertyService.cs" Line="6" Column="65" />
+      <File FileName="Business/Abstract/ITeamService.cs" Line="6" Column="57" />
+      <File FileName="Business/Abstract/ITestimonialService.cs" Line="6" Column="71" />
+      <File FileName="Business/Concrete/AboutManager.cs" Line="39" Column="34" />
+      <File FileName="Business/ValidationRules/AboutValidator.cs" Line="12" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QuorterBackEnd" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+              <Node name="ValidationRules" expanded="True" />
+            </Node>
+            <Node name="DAL" expanded="True">
+              <Node name="Repository" expanded="True" />
+            </Node>
+            <Node name="DataEntities" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="About.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="QuorterBackEnd" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DataEntities FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.QuorterBackEnd FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+</Properties>
