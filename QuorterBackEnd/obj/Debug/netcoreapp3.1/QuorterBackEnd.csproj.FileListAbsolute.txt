@@ -45,3 +45,10 @@
 /Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_SliderPartial/Default.cshtml.g.cs
 /Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_FindNowPartial/Default.cshtml.g.cs
 /Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_MainFocusPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_PropertyPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_BrandLogoPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_FeaturePartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_FeedbackPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_NewsPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_VideoPartial/Default.cshtml.g.cs
+/Users/babayev_/Desktop/NetProject/QuorterBackEnd/QuorterBackEnd/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/_ExplorePartial/Default.cshtml.g.cs

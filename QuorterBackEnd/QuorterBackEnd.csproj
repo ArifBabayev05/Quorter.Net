@@ -13,6 +13,15 @@
     <None Remove="Views\Shared\Components\_SliderPartial\" />
     <None Remove="Views\Shared\Components\_FindNowPartial\" />
     <None Remove="Views\Shared\Components\_MainFocusPartial\" />
+    <None Remove="Views\Shared\Components\_PropertyPartial\" />
+    <None Remove="Views\Shared\Components\_FeaturePartial\" />
+    <None Remove="Views\Shared\Components\_VideoPartial\" />
+    <None Remove="Views\Shared\Components\_FeedbackPartial\" />
+    <None Remove="Views\Shared\Components\_BrandLogoPartial\" />
+    <None Remove="Views\Shared\Components\_NewsPartial\" />
+    <None Remove="Views\Shared\Components\_ExplorePartial\" />
+    <None Remove="Views\Shared\Components\_UtilitizeCard\" />
+    <None Remove="Views\Shared\Components\_UtilitizeMobile\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -23,5 +32,14 @@
     <Folder Include="Views\Shared\Components\_SliderPartial\" />
     <Folder Include="Views\Shared\Components\_FindNowPartial\" />
     <Folder Include="Views\Shared\Components\_MainFocusPartial\" />
+    <Folder Include="Views\Shared\Components\_PropertyPartial\" />
+    <Folder Include="Views\Shared\Components\_FeaturePartial\" />
+    <Folder Include="Views\Shared\Components\_VideoPartial\" />
+    <Folder Include="Views\Shared\Components\_FeedbackPartial\" />
+    <Folder Include="Views\Shared\Components\_BrandLogoPartial\" />
+    <Folder Include="Views\Shared\Components\_NewsPartial\" />
+    <Folder Include="Views\Shared\Components\_ExplorePartial\" />
+    <Folder Include="Views\Shared\Components\_UtilitizeCard\" />
+    <Folder Include="Views\Shared\Components\_UtilitizeMobile\" />
   </ItemGroup>
 </Project>
