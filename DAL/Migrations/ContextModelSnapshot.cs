@@ -99,6 +99,27 @@ namespace DAL.Migrations
                     b.ToTable("Features");
                 });
 
+            modelBuilder.Entity("DataEntities.Concrete.MainFocus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Image")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MainFocuses");
+                });
+
             modelBuilder.Entity("DataEntities.Concrete.Newsletter", b =>
                 {
                     b.Property<int>("Id")
@@ -112,6 +133,21 @@ namespace DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Newsletters");
+                });
+
+            modelBuilder.Entity("DataEntities.Concrete.Position", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("PositionName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Positions");
                 });
 
             modelBuilder.Entity("DataEntities.Concrete.Property", b =>
@@ -189,6 +225,9 @@ namespace DAL.Migrations
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Position")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

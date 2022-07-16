@@ -22,6 +22,7 @@
     <None Remove="Views\Shared\Components\_ExplorePartial\" />
     <None Remove="Views\Shared\Components\_UtilitizeCard\" />
     <None Remove="Views\Shared\Components\_UtilitizeMobile\" />
+    <None Remove="Views\Shared\Components\_CounterPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Default\" />
@@ -41,5 +42,17 @@
     <Folder Include="Views\Shared\Components\_ExplorePartial\" />
     <Folder Include="Views\Shared\Components\_UtilitizeCard\" />
     <Folder Include="Views\Shared\Components\_UtilitizeMobile\" />
+    <Folder Include="Views\Shared\Components\_CounterPartial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\DataEntities\DataEntities.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

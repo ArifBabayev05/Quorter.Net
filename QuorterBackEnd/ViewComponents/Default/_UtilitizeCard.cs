@@ -1,10 +1,13 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc;
+
 namespace QuorterBackEnd.ViewComponents.Default
 {
-    public class _UtilitizeCard
+    public class _UtilitizeCard : ViewComponent
     {
-        public _UtilitizeCard()
+        public IViewComponentResult Invoke()
         {
+            return View();
         }
     }
 }

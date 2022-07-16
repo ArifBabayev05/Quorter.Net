@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace QuorterBackEnd.ViewComponents.Default
 {
-    public class _FeedbackPartial : ViewComponent
+    public class _TestimonialPartial : ViewComponent
     {
         public IViewComponentResult Invoke()
         {

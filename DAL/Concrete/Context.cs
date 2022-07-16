@@ -15,9 +15,11 @@ namespace DAL.Concrete
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Feature> Features { get; set; }
         public DbSet<Newsletter> Newsletters{ get; set; }
+        public DbSet<MainFocus> MainFocuses{ get; set; }
         public DbSet<Property> Properties { get; set; }
         public DbSet<Team> Teams{ get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Position> Positions { get; set; }
 
     }
 }

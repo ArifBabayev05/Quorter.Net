@@ -9,6 +9,7 @@ namespace DataEntities.Concrete
         public int Id { get; set; }
         public string Client { get; set; }
         public string ClientImage { get; set; }
+        public string Position { get; set; }
         public string Comment { get; set; }
         public bool IsDeleted { get; set; }
 
